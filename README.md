@@ -1,3 +1,3 @@
 # Lab 2 - Starter
-This is my web
-https://hjxhh030315.github.io/Lab2_Starter/
+this is my web for lab3
+https://hjxhh030315.github.io/sp23-cse110-lab3/

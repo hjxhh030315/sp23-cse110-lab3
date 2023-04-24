@@ -1,0 +1,180 @@
+/* start setting the styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #ccc; /* add the color*/
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+    width: 50vw;
+    padding: 0;
+    background: url("Pumpkin.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Style the header */
+#header {
+    background-color: #eee;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    display: block;
+}
+
+h1, h2, h3 {
+    color: lightpink;
+  }
+
+/* Style the main content */
+#main {
+    padding: 15pt;
+}
+
+section {
+    padding: 0.2in; /*3 absolute unit*/
+}
+
+/* Style the navigation menu */
+nav ul {
+    text-decoration: underline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the links */
+a {
+    color: #0077cc;
+}
+* {
+    /*nothing*/
+  }
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the form */
+form fieldset {
+    border: none;
+    padding: 0;
+}
+
+p[data-text="This is a paragraph"] {
+    color: red;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: lightblue;
+    border-style: dashed;
+    border-width:0.1cm;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+p ~ span {
+    color: lightskyblue;
+  }
+  
+p + p {
+    color: lightgreen;
+}
+
+p > .p {
+    color: lightsalmon;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+  
+.grid-item {
+    background-color: #ddd;
+    padding: 10px;
+}
+  
+.flex-item {
+    width: 30%;
+    height: 100px;
+    background-color: gray;
+}
+
+form input[type="submit"],
+button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+button:active {
+    background-color: #005ea2;
+}
+
+/* Style the images */
+img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Style the audio and video */
+audio,
+video {
+    position:static;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Style the details summary */
+details summary {
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
